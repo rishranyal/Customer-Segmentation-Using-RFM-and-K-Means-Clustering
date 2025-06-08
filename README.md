@@ -1,39 +1,76 @@
-# 🛒🛒 Olist Ecommerce: Customer Segmentation with RFM Analysis and K-Means Clustering 
-End to end process from Data Cleaning, Exploratory Data Analysis then do Customer Segmentation with RFM Analysis and K-Means Clustering and giving insight and recommendation for each cluster.
+# 🛒🛒 Olist E-Commerce: Customer Segmentation Using RFM & K-Means Clustering
 
-Tools : Python (Pandas, Matplotlib, Scikit-Learn, Numpy, Seaborn, Scipy, Silhoutte Analysis) using Google Collab
+An end-to-end data science project involving **data cleaning**, **exploratory data analysis**, followed by **customer segmentation** using **RFM analysis** and **K-Means clustering**, concluding with key insights and tailored recommendations for each customer segment.
 
-Check the code [here](https://github.com/yulianthyho/Olist-Ecommerce-RFM-Customer-Segmentation/blob/main/W6W7W8_Yulianthy_Ho_Intermediate_%26Advanced.ipynb)
+---
 
-## Overview
-Olist just started an e-commerce startup based in Portugal that recently opened an online website to sell their product. Fortunately, Olist is launching their website when the covid-19 hits and making them grow faster than ever. However, Olist is still not using targeted marketing which hurts their marketing budget as only a fraction of their user comes back to their website.
+## 🛠 Tools Used
 
-## Objective
-Help Olist to increase their marketing conversion rate by doing targeted marketing using customer segmentation so that it will not hurt their budget.
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, SciPy)
+- **Google Colab**
+- **Silhouette Analysis**
 
-## Analysis
-Customer segmentation is one of the most important marketing tools, because it can help a business to better understand its target audience. Segmenting customer helps in better understanding the customers and thus personalizing marketing and communication for each segment.
+👉 [View the Code Here](#)
 
-We will segment our customer using RFM analysis
-- **Recency (R)** : Difference between days since last purchase and observed days.
-- **Frequency (F)** : How many of transcaction each customer made?
-- **Monetary (M)** : How much each customer spend ?
+---
 
-## Insight and Recommendation
+## 📌 Project Background
 
-There are 3 cluster of our customer, then we can naming them as :
-1. **The Loyal One** 🧡🧡: customer with high spending and low recency
+Olist, a Portugal-based e-commerce startup, recently launched its online store. Coincidentally, the launch aligned with the onset of COVID-19, which accelerated their growth. However, due to a lack of **targeted marketing**, a significant portion of users fail to return, leading to inefficient marketing spend.
 
-No need to doubt they are our favorite customers that we need to take good care of.
-- Recommendation: Actually there is no need to overwhelmed them with vouchers/ promotions (this could saves us our money or marketing budget), but we can optimize or leverage some kind of loyalty point to keep them around. Loyalty programs can offers rewards, extra discount, or other special incentives.
+---
 
-2. **The Probably Churned** ❗❗: moderate spend, high recency
+## 🎯 Objective
 
-Our top priority is to get them transacting with us again after they have been churned for a while.
-- Recommendations : To encourage them to transaction with us again, we could offer one or two large-benefit vouchers, while give them push notifications on email, etc.
+To boost Olist's **marketing conversion rate** by implementing **customer segmentation**, enabling **targeted and cost-effective marketing strategies**.
 
-3. **The Casual One** 😀 : low spend, moderate recency
+---
 
-We need to increase the monetary value or total spending of the customers in this category.
-- Recommendations : We can increase total spending of customers by providing vouchers in the form of cashback (to enable repeat purchases), with a high eligibility threshold (e.g. the voucher is only valid for transactions amount at least 100).
+## 📊 Why Customer Segmentation?
 
+Customer segmentation allows businesses to understand different user groups and personalize communication, promotions, and product offerings. This leads to improved engagement, better customer retention, and optimized marketing budgets.
+
+---
+
+## 📈 RFM Analysis Framework
+
+We applied RFM analysis for segmentation:
+
+- **Recency (R)** – Days since the customer's last purchase
+- **Frequency (F)** – Total number of transactions made
+- **Monetary (M)** – Total amount spent by the customer
+
+---
+
+## 🔍 Insights & Segments Identified
+
+After applying **K-Means clustering**, three distinct customer segments emerged:
+
+---
+
+### 🧡 The Loyal Ones
+
+**Traits**: High spenders, frequent buyers, recent transactions
+**Interpretation**: These are your best customers. They don’t need heavy promotions — just appreciation and retention strategies.
+
+**Recommendation**: Implement a **loyalty program** instead of sending frequent discount codes. Reward them with exclusive perks, early access to sales, or points systems.
+
+---
+
+### ❗ The At-Risk (Likely to Churn)
+
+**Traits**: Moderate spending, long time since last purchase
+**Interpretation**: These users are valuable but inactive.
+
+**Recommendation**: Use **high-impact incentives** (e.g., large one-time discounts), coupled with re-engagement campaigns via email, push notifications, etc.
+
+---
+
+### 😀 The Casual Shoppers
+
+**Traits**: Low spending, moderate recency
+**Interpretation**: These users shop infrequently and spend less.
+
+**Recommendation**: Encourage higher transaction values through **cashback vouchers** with high minimum purchase conditions (e.g., “₹100 off on orders above ₹500”) to drive repeat and bigger purchases.
+
+---
