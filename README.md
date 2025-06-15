@@ -1,4 +1,4 @@
-# 🛒🛒 Olist E-Commerce: Customer Segmentation Using RFM & K-Means Clustering
+# 🛒 Olist E-Commerce: Customer Segmentation Using RFM & K-Means Clustering
 
 An end-to-end data science project involving **data cleaning**, **exploratory data analysis**, followed by **customer segmentation** using **RFM analysis** and **K-Means clustering**, concluding with key insights and tailored recommendations for each customer segment.
 
@@ -9,9 +9,6 @@ An end-to-end data science project involving **data cleaning**, **exploratory da
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, SciPy)
 - **Google Colab**
 - **Silhouette Analysis**
-
-👉 [View the Code Here](#)
-
 ---
 
 ## 📌 Project Background
