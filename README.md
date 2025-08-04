@@ -1,35 +1,29 @@
-# 🛒 Olist E-Commerce: Customer Segmentation Using RFM & K-Means Clustering
+# E-Commerce: Customer Segmentation Using RFM & K-Means Clustering
 
-An end-to-end data science project involving **data cleaning**, **exploratory data analysis**, followed by **customer segmentation** using **RFM analysis** and **K-Means clustering**, concluding with key insights and tailored recommendations for each customer segment.
+An end-to-end project involving **data cleaning**, **exploratory data analysis**, followed by **customer segmentation** using **RFM analysis** and **K-Means clustering**, concluding with key insights and tailored recommendations for each customer segment.
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, SciPy)
 - **Google Colab**
 - **Silhouette Analysis**
 ---
 
-## 📌 Project Background
+## Objective
 
-Olist, a Portugal-based e-commerce startup, recently launched its online store. Coincidentally, the launch aligned with the onset of COVID-19, which accelerated their growth. However, due to a lack of **targeted marketing**, a significant portion of users fail to return, leading to inefficient marketing spend.
-
----
-
-## 🎯 Objective
-
-To boost Olist's **marketing conversion rate** by implementing **customer segmentation**, enabling **targeted and cost-effective marketing strategies**.
+To boost **marketing conversion rate** by implementing **customer segmentation**, enabling **targeted and cost-effective marketing strategies**.
 
 ---
 
-## 📊 Why Customer Segmentation?
+## Why Customer Segmentation?
 
 Customer segmentation allows businesses to understand different user groups and personalize communication, promotions, and product offerings. This leads to improved engagement, better customer retention, and optimized marketing budgets.
 
 ---
 
-## 📈 RFM Analysis Framework
+## RFM Analysis Framework
 
 We applied RFM analysis for segmentation:
 
@@ -39,13 +33,13 @@ We applied RFM analysis for segmentation:
 
 ---
 
-## 🔍 Insights & Segments Identified
+##  Segments Identified
 
 After applying **K-Means clustering**, three distinct customer segments emerged:
 
 ---
 
-### 🧡 The Loyal Ones
+###  The Loyal Ones
 
 **Traits**: High spenders, frequent buyers, recent transactions
 **Interpretation**: These are your best customers. They don’t need heavy promotions — just appreciation and retention strategies.
@@ -54,7 +48,7 @@ After applying **K-Means clustering**, three distinct customer segments emerged:
 
 ---
 
-### ❗ The At-Risk (Likely to Churn)
+###  The At-Risk (Likely to Churn/ Already churned)
 
 **Traits**: Moderate spending, long time since last purchase
 **Interpretation**: These users are valuable but inactive.
@@ -63,7 +57,7 @@ After applying **K-Means clustering**, three distinct customer segments emerged:
 
 ---
 
-### 😀 The Casual Shoppers
+###  The Casual Shoppers
 
 **Traits**: Low spending, moderate recency
 **Interpretation**: These users shop infrequently and spend less.
